@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Add you readme here; Example
 
-## Getting Started
+# Stripped down boilerplate template of nextjs project; includes:
 
-First, run the development server:
+1. [Styled-components](#stled-components)
+2. [Typescript](#typescript)
+3. [Jest testing](#jest-testing-libraries)
+4. [Eslint, prettier and husky](#configured-eslint--prettier-and-husky-hooks)
+5. [vscode recommended extentions](#recommended-vscode-extentions)
+6. [Empty example files](#example-env-and-npmrc-files)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Stled-components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Styled components with babel as compiler.
+Using SWC with styled components is still an experimental option but if you want to use it, remove .babelrc and uncomment " styledComponents: true " in the next.config file
+related changes:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- custom \_document
+  https://nextjs.org/docs/advanced-features/custom-document
+- custom .babelrc file
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Typescript
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Configured typescript with related helper npm packages
 
-## Learn More
+## Jest testing libraries
 
-To learn more about Next.js, take a look at the following resources:
+Configured jest with related helper npm packages
+setupTests.ts needs to be configured by you
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Configured eslint + prettier and husky hooks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+together with ignore files and related scripts
 
-## Deploy on Vercel
+## recommended vscode extentions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+eslint
+prettier
+dotevn and todo-tree quality of life extentions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## example .env and .npmrc files
+
+Empty files for which you have to provide the examples
+
+## Possible future additions:
+
+- ImageOptim-CLI package for image optimization
+- .editorconfig file and related extention
+- PlopJs for consistency between teams
+  https://dev.to/vikirobles/how-to-generate-automatically-components-pages-hooks-on-your-code-with-plopjs-54k8
+- overriding deprecated transitory dependencies via npm's overrides option

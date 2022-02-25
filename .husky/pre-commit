@@ -1,0 +1,42 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo 'hey'
+
+
+# ## Prettier format check
+# npm run check-format ||
+# (
+#     echo '❌ Prettier Check Failed.';
+#     false;
+# )
+
+# # ESLint Standards
+# npm run check-lint ||
+# (
+#         echo '❌ ESLint Check Failed.'
+#         false; 
+# )
+
+# # tsconfig
+# npm run type-check ||
+# (
+#     echo '❌ Type Check Failed.'
+#     false;
+# )
+
+# #test
+# npm run test ||
+# (
+#     echo '❌ Tests failed.'
+#     false;
+# )
+
+# #build
+# npm run build ||
+# (
+#     echo '❌ Next build failed.'
+#     false;
+# )
+
+# echo '✅Commited successfully'
