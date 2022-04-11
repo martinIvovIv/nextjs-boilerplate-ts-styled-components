@@ -15,8 +15,7 @@ Styled components with babel as compiler.
 Using SWC with styled components is still an experimental option but if you want to use it, remove .babelrc and uncomment " styledComponents: true " in the next.config file
 related changes:
 
-- custom \_document
-  https://nextjs.org/docs/advanced-features/custom-document
+- [custom \_document](https://nextjs.org/docs/advanced-features/custom-document)
 - custom .babelrc file
 
 ## Typescript
@@ -41,6 +40,11 @@ dotevn and todo-tree quality of life extentions
 ## example .env and .npmrc files
 
 Empty files for which you have to provide the examples
+
+## npm check
+
+[Package used for interactively checking the dependencies](https://www.npmjs.com/package/npm-check). \
+Use `npm run npm-up` to use.
 
 ## Possible future additions:
 
